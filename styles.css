@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tektur", sans-serif;
+    color: white;
+}
+
+body {
+    background:black;
+}
+
+.first {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: 190px;
+}
+
+.corpo {
+    display: flex;
+    margin: 20px auto;
+    width: 380px;
+    flex-direction: column;
+    padding-left: 19px;
+    background: rgb(112, 108, 108);
+    border-radius: 20px;
+    padding-top: 8px;
+}
+
+.currency {
+    width: 95%;
+    color: black;
+    font-weight: 700;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+option {
+    color: black;
+    font-weight: 700;
+}
+
+.but-convert {
+    width: 95%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 39px;
+}
+
+.vec {
+    margin: 15px;
+    
+}
+
+.second {
+    border: 1px solid #faf9fa;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.paragraph1 {
+    font-size: 17px;
+    opacity: 50%;
+}
+
+.paragraph2 {
+    font-weight: 700;
+}
+
+.result {
+    font-weight: 700;
+}

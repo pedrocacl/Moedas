@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversão</title>
+</head>
+
+<body>
+    <img src="./assets/download.png" alt="imagem-que-representa-conversao" class="first">
+
+    <div class="corpo">
+        <label>
+            Converter <b>de</b>
+            <select class="currency currency1">
+                <option >R$ Real</option>
+                <option >US$ Dolar</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="currency sele1">
+                <option class="currency Dolar">US$ Dolar </option>
+                <option class="currency Euro">€ Euro</option>
+                <option class="currency Libra">£ Libra</option>
+                <option class="currency Real">R$ Real</option>
+            </select>
+        </label>
+
+        <section>
+            Valor
+            <input class="inp-sect currency" placeholder="Valor">
+        </section>
+
+        <button class="but-convert">Converter</button>
+
+        <div class="second">
+            <div class="currency-box">
+                <img src="assets/brasil 2.png" class="foto">
+                <p  class="paragraph1 nome">Real</p>
+                <p class="paragraph2 value1">R$0,00</p>
+            </div>
+
+            <img src="./assets/Vector.png" class="vec">
+
+            <div class="currency-box">
+                <img src="./assets/estados-unidos (1) 1.png" class="currencyimg">
+                <p class="paragraph1 currencyName">Dolar</p>
+                <p class="result">US$ 0,00</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="./scipt.js"></script>
+</html>
